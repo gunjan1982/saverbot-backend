@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm install",
+  "devCommand": "node server.js",
+  "name": "saverbot-backend",
+  "env": {
+    "NOTION_API_KEY": "@notion_api_key",
+    "ANTHROPIC_API_KEY": "@anthropic_api_key",
+    "NOTION_ARTICLES_DB": "@notion_articles_db",
+    "NOTION_BOOKS_DB": "@notion_books_db",
+    "NOTION_PODCASTS_DB": "@notion_podcasts_db"
+  }
+}
